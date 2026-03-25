@@ -143,7 +143,7 @@ include_once($path);
 </div>
 </div>
 
-<script type="text/javascript" src="https://individualogist.com/offer/paa/js/custom.js"></script>
+<script type="text/javascript" src="paa/js/custom.js"></script>
 <script>
 window.onload = function () {
 var string_contain = 'upsell';
