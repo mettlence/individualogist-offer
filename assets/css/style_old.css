@@ -1,0 +1,1175 @@
+    html {
+        width: 100%;
+        margin: 0;
+    }
+    p, h1, h2, h3, h4, h5, h6, li {
+        font-family: 'Raleway', sans-serif;
+    }
+    ::selection {
+      background: #6a1bbd;
+      color: #fff;
+    }
+    ::-moz-selection {
+      background: #6a1bbd;
+      color: #fff;
+    }
+    p {
+        font-size: 1.2em;
+        color: #222;
+        line-height: 2em;
+    }
+    h1 {
+        font-size: 2em;
+    }
+    h2 {
+        font-size: 1.8em;
+    }
+    body {
+      margin: 0;
+      height: auto;
+      width: 100%;
+      padding: 0;
+      background-size: cover;
+    }
+    .capitalize {
+        text-transform: capitalize;
+    }
+    .indi-logo {
+        filter: drop-shadow(2px 5px 5px #000);
+        position: relative;
+        margin: 0 auto;
+        width: 300px;
+        padding: 30px;
+    }
+    .indi-logo img {
+        width: 100%;
+    }
+    .footer-logo {
+      filter: drop-shadow(2px 5px 5px #000);
+      width: 200px;
+      position: relative;
+      margin: 20px auto;
+}
+    .goldenrod {
+        color: goldenrod;
+        font-weight: 700;
+        text-shadow: 0 0 5px goldenrod;
+    }
+    .purple {
+        color: purple;
+        font-weight: 700;
+        text-shadow: 0 0 5px purple;
+    }
+    .pink {
+        color: #fff;
+        font-weight: 700;
+        text-shadow: 0 0 5px #de2086, 0 0 5px #de2086, 0 0 10px #de2086, 0 0 5px #de2086, 0 0 20px #de2086, 0 0 10px #de2086;
+    }
+    .sales-reading, .archetype-reading {
+        width: 70%;
+        margin: 0 auto;
+        position: relative;
+        padding: 30px;
+        box-shadow: 5px 5px 10px #000;
+        text-align: left;
+        background: linear-gradient(90deg,#fff,#f8f8f8,#fff);
+        clear: both;
+    }
+    .bullet-purple {
+        background: linear-gradient(60deg,#80004d,#481648,#8e288e);
+        color: #fff;
+        padding: 20px 40px;
+        box-shadow: 0 0 10px #000;
+        width: 70%;
+        margin: 0 auto;
+        position: relative;
+    }
+    .bullet-purple li {
+        font-size: 1.2em;
+        line-height: 1.8em;
+    }
+    .row {
+        width: 75%;
+        margin: 0 auto;
+        text-align: center;
+        position:relative;
+    }
+    .bonus-title {
+      text-transform: uppercase;
+      text-shadow: 0 0 10px #000;
+      font-size: 1.5em;
+      margin-bottom: 10px;
+      margin-top: 10px;
+    }
+    .bonus1 {
+        width: 28%;
+        padding: 2.65%;
+        display:block;
+        float: left;
+        color: #fff;
+        background: #800080a8;
+        text-align:center;
+        height: 650px;
+    }
+    .bonus2 {
+        width: 28%;
+        float: left;
+        display:block;
+        color: #fff;
+        padding: 2.65%;
+        background: #008048b5;
+        text-align:center;
+        height: 650px;
+    }
+    .bonus3 {
+        width: 28%;
+        display:block;
+        float: left;
+        color: #fff;
+        padding: 2.65%;
+        background: #cecc00c9;
+        text-align:center;
+        height: 650px;
+    }
+    .bonus1 img, .bonus2 img, .bonus3 img {
+        width: 200px;
+        position: relative;
+        margin: 0 auto;
+        filter: drop-shadow(0 0 5px #fff);
+    }
+    .bonus1 p, .bonus2 p, .bonus3 p {
+        color: #fff;
+        text-shadow: 0 0 5px #000;
+        font-size: 1em;
+    }
+    .order-area {
+        width: 90%;
+        margin: 30px auto;
+        position: relative;
+        padding-bottom: 30px;
+        padding-top: 30px;
+        clear: both;
+    }
+    .order-img {
+        width: 35%;
+        display: block;
+        float: left;
+        text-align: center;
+        filter: drop-shadow(0 0 5px #fff);
+        margin: 30px auto;
+        padding-bottom: 30px;
+    }
+    .order-form {
+        background: linear-gradient(270deg,#e8e8e8,#fff,#f8f8f8);
+        border-radius: 10px;
+        width: 58%;
+        display: block;
+        float: left;
+        position: relative;
+        margin: 30px auto;
+        text-align: center;
+        box-shadow: 0px 0px 20px #000;
+        color: #fff;
+        font-family: 'Raleway', 'sans-serif';
+        border: 3px solid purple;
+    }
+    .order-title {
+        background: linear-gradient(60deg,#9e1f9e,#6b0f6b,#561167,#b12db1,#481448);
+        border-bottom: 3px solid purple;
+        position: relative;
+        color: #fff;
+        text-shadow: 0 0 10px #fff;
+        font-weight: 700;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    .order-details {
+        position: relative;
+        margin: 20px auto;
+        font-size: 1.3em;
+    }
+    .order-footer {
+        margin-bottom: 20px 0 0;
+        background: linear-gradient(60deg,#9e1f9e,#6b0f6b,#561167,#b12db1,#481448);
+        padding: 20px;
+    }
+    #order-area {
+        width: 70%;
+        margin: 30px auto;
+        position: relative;
+        padding-bottom: 30px;
+    }
+    .guarantee {
+        background: #8719c5;
+        padding: 20px;
+        text-align: center;
+        margin-bottom: 30px;
+        box-shadow: 0 0 20px #000;
+        border-bottom-left-radius: 3px;
+        border-bottom-right-radius: 3px;
+        margin-top: -3px;
+    }
+    .guarantee p {
+        color: #fff;
+    }
+    .cta-button {
+        background: linear-gradient(70deg,gold,goldenrod,gold);
+        border: none;
+        color: #fff;
+        font-weight: 700;
+        text-shadow: 0 0 20px #fff;
+        box-shadow: 0 0 10px #000;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 2em;
+        margin: 20px;
+        border-radius: 10px;
+    }
+    .cta-button:hover {
+        transition: 0.5s;
+        text-shadow: 0 0 10px #000;
+        box-shadow: 0 0 20px #000;
+        background: linear-gradient(140deg,gold,goldenrod,gold);
+    }
+    .decline {
+        text-decoration: none;
+        color: red;
+    }
+    .decline:hover {
+        transition: 0.5s;
+        text-shadow: 1px 1px 1px #000;
+    }
+    tbody {
+        padding: 20px;
+    }
+    tr {
+        border: 1px solid #666;
+    }
+    td {
+        padding: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+        color: #222;
+    }
+    .footer {
+        width: 100%;
+        background: #222;
+        box-shadow: -10px 0 10px #000;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        clear: both;
+        position: relative;
+        margin-top: 50px;
+        display:block;
+        bottom: 0;
+        margin: 0 auto;
+        border-top: 3px solid purple;
+    }
+    .footer p {
+        color: #fff;
+        text-align: center;
+    }
+    .footer p a {
+        text-decoration: none;
+        color: purple;
+    }
+    .small {
+        font-size: .8em;
+    }
+    .profile-container {
+        background: linear-gradient(60deg,purple,violet,purple);
+        width: 70%;
+        margin: 0 auto;
+        position: relative;
+        padding: 30px;
+    }
+    .reading-profile, .order-details {
+        width: 50%;
+        position: relative;
+        margin: 0 auto;
+        box-shadow: 0 0 20px #000;
+    }
+    .order-details {
+      margin: 20px auto;
+      box-shadow: 0 0 5px #000;
+    }
+    .reading-profile tr {
+        font-family: 'Raleway','sans-serif';
+        font-size: 1em;
+        text-align: center;
+    }
+    .reading-profile td {
+        color: #fff;
+    }
+    .img-intext {
+        float: right;
+        clear: both;
+        filter: drop-shadow(3px 3px 5px #000);
+        -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(70%, transparent) , to(rgba(250, 250, 250, 0.3)));
+        width: 40%;
+        margin: 20px;
+        margin-bottom: 40px;
+    }
+
+/*---- Archetype Icons Start ----*/
+
+    .archetype-xl, .element-xl {
+        width: 300px;
+        height: 300px;
+        display: block;
+        filter: drop-shadow(3px 3px 5px #000);
+        -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(70%, transparent) , to(rgba(250, 250, 250, 0.3)));
+        float: right;
+        margin: 20px;
+        margin-bottom: 40px;
+    }
+    .caregiver {
+        background: url('../img/icons/caregiver.png') no-repeat;
+        background-size: contain;
+    }
+    .creator {
+        background: url('../img/icons/creator.png') no-repeat;
+        background-size: contain;
+    }
+    .explorer {
+        background: url('../img/icons/explorer.png') no-repeat;
+        background-size: contain;
+    }
+    .hero {
+        background: url('../img/icons/hero.png') no-repeat;
+        background-size: contain;
+    }
+    .innocent {
+        background: url('../img/icons/innocent.png') no-repeat;
+        background-size: contain;
+    }
+    .jester {
+        background: url('../img/icons/jester.png') no-repeat;
+        background-size: contain;
+    }
+    .lover {
+        background: url('../img/icons/lover.png') no-repeat;
+        background-size: contain;
+    }
+    .magician {
+        background: url('../img/icons/magician.png') no-repeat;
+        background-size: contain;
+    }
+    .member {
+        background: url('../img/icons/member.png') no-repeat;
+        background-size: contain;
+    }
+    .outlaw {
+        background: url('../img/icons/outlaw.png') no-repeat;
+        background-size: contain;
+    }
+    .ruler {
+        background: url('../img/icons/ruler.png') no-repeat;
+        background-size: contain;
+    }
+    .sage {
+        background: url('../img/icons/sage.png') no-repeat;
+        background-size: contain;
+    }
+    .air {
+        background: url('../img/air-element.png') no-repeat;
+        background-size: contain;
+    }
+    .water {
+        background: url('../img/water-element.png') no-repeat;
+        background-size: contain;
+    }
+    .earth {
+        background: url('../img/earth-element.png') no-repeat;
+        background-size: contain;
+    }
+    .fire {
+        background: url('../img/fire-element.png') no-repeat;
+        background-size: contain;
+    }
+
+/*---- Archetype Icons End ----*/
+
+.right {
+    text-align: center;
+    background: #fff;
+    color: #222  !important;
+    padding-right: 20px;
+    text-transform: uppercase !important;
+    font-size: .9em;
+}
+.left {
+    text-align: center;
+    font-weight: 700;
+    text-shadow: 0 0 10px purple;
+    background: #e8e8e8;
+    font-size: 1.1em;
+    color: purple !important;
+}
+.love-img {
+    width: 100%;
+    filter: drop-shadow(2px 2px 5px #000);
+    -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(70%, transparent) , to(rgba(250, 250, 250, 0.3)));
+    margin-bottom: 50px;
+}
+    .archetype-img {
+      display: block;
+      margin: 20px 0;
+      text-align: center;
+      min-height: 20px;
+      position: relative;
+      filter: drop-shadow(0 0 10px purple);
+      z-index:1;
+    }
+    .archetype-img::before {
+      border-top: 3px solid purple;
+      content: "";
+      height: 0;
+      left: 0;
+      margin-right: 40px;
+      position: absolute;
+      right: 55%;
+      top: 49px;
+    }
+    .archetype-img::after {
+    border-top: 3px solid purple;
+    content: "";
+    height: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 49px;
+    left: 55%;
+    margin-left: 40px;
+    right: 0;
+  }
+
+  #archetype-wheel {
+    position: fixed;
+    top:50%; left:0;
+    z-index: -1;
+    filter: opacity(0.9);
+	  background: url("../img/archetype-wheel.png") center center no-repeat;
+	 -webkit-animation:spin 90s linear infinite;
+    -moz-animation:spin 90s linear infinite;
+    animation:spin 90s linear infinite;
+    -moz-transform-origin:center center;
+    -webkit-transform-origin:center center;
+    transform-origin:center center;
+  }
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+    /* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    width: 100%;
+    font-size: 1.2em;
+    font-weight: 700;
+    font-family: 'Raleway', 'sans-serif';
+    background-color: #80247f;
+    color: #fff;
+    text-shadow: 0 0 5px #000;
+    border: 3px solid white;
+    cursor: pointer;
+    padding: 18px;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    box-shadow: 0 0 10px #fff;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+    background-color: #222;
+    color: #80247f;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+padding: 0 18px;
+ background-color: white;
+ max-height: 0;
+ overflow: hidden;
+ transition: max-height 0.2s ease-out;
+}
+
+.accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+/* -----Responsive Start---- */
+
+    @media only screen and (max-width: 720px) {
+        #archetype-wheel {
+          display: none;
+        }
+        .indi-logo img {
+          width: 200px !important;
+        }
+        .indi-logo {
+          width: 200px;
+          text-align: center;
+        }
+        .row {
+          width: 100%;
+          margin: 0 auto;
+        }
+        .bonus1, .bonus2, .bonus3 {
+            width: 100%;
+            margin: 0 auto;
+            position: relative;
+            display: block;
+            float: none;
+            padding: 0;
+        }
+        .sales-reading, .page-header, .archetype-reading {
+            width: 80%;
+        }
+        #order-area {
+          width: 100%;
+          padding: 0;
+        }
+        .left {
+            max-width: 150px;
+            word-wrap: break-word;
+        }
+        .order-img  {
+          text-align: center;
+          float: none;
+          position: relative;
+          margin: 0 auto;
+          width: 100%;
+        }
+        .order-form {
+          width: 100%;
+          float: none;
+          position: relative;
+          margin: 0 auto;
+        }
+        .img-intext, .archetype-xl, .element-xl {
+            width: 100%;
+            position: relative;
+            margin: 0 auto;
+        }
+    }
+/*---- Responsive End -----*/
+
+/*---- CHC Start ----*/
+
+    .chc-header {
+        background: linear-gradient(60deg, #8d00a7,#7b077ba8, #881bb5);
+        padding: 30px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        box-shadow: 0 0 30px purple;
+        color: #fff;
+        width: 70%;
+        position: relative;
+        font-weight: 700;
+        text-shadow: 2px 2px 5px #000;
+        margin: 0 auto;
+        font-size: 2.2em;
+        font-family: 'Raleway', 'sans-serif';
+        text-align: center;
+        border-bottom: 5px solid gold;
+    }
+    .chc-header h1 {
+        font-size: 1em;
+        font-family: 'Raleway', 'sans-serif';
+    }
+    .chc-header h3 {
+        font-size: 1em;
+    }
+    .chc-container {
+        width: 100%;
+        background: url(../img/chc-bg.jpg) fixed center no-repeat;
+        background-size: cover;
+    }
+    .chc-reading {
+        width: 70%;
+        margin: 0 auto;
+        position: relative;
+        padding: 30px;
+        box-shadow: 5px 5px 10px #000;
+        text-align: left;
+        background: linear-gradient(90deg,#fff,#f8f8f8,#fff);
+        clear: both;
+    }
+    .chc-sub-header {
+        padding: 30px;
+        text-transform: capitalize;
+        background: url(../img/chc-bg.jpg) fixed center;
+        background-size: cover;
+        color: #fff;
+        text-shadow: 2px 2px 5px #000;
+        text-align: center;
+        position: relative;
+        margin: 0 auto;
+        clear: both;
+        box-shadow: 0 0 10px #000;
+        border: 2px solid gold;
+        border-radius: 4px;
+    }
+
+
+/*---- CHC End ----*/
+
+/*---- EOTE Start ----*/
+
+    .eote-container {
+        width: 100%;
+        background: #000;
+        background-size: cover;
+    }
+    .eote-header {
+        background: linear-gradient(60deg, #8d00a7,#7b077ba8, #881bb5);
+        padding: 30px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        box-shadow: 0 0 30px purple;
+        color: #fff;
+        width: 70%;
+        position: relative;
+        font-weight: 700;
+        text-shadow: 2px 2px 5px #000;
+        margin: 0 auto;
+        font-size: 2.2em;
+        font-family: 'Raleway', 'sans-serif';
+        text-align: center;
+        border-top: 3px solid gold;
+        border-left: 3px solid gold;
+        border-right: 3px solid gold;
+    }
+    .eote-header h1 {
+        font-size: 1em;
+        font-family: 'Raleway', 'sans-serif';
+    }
+    .eote-header h3 {
+        font-size: 1em;
+    }
+    .eote-reading {
+        width: 70%;
+        margin: 0 auto;
+        position: relative;
+        padding: 30px;
+        box-shadow: 5px 5px 10px #000;
+        text-align: left;
+        background: #000;
+        border: 3px solid gold;
+        box-shadow: 0 0 10px gold;
+        clear: both;
+    }
+    .eote-reading p {
+        color: #fff;
+    }
+    .eote-sub-header {
+        padding: 30px;
+        text-transform: capitalize;
+        background: url(../img/eote-bg.jpg) fixed center;
+        background-size: cover;
+        color: #fff;
+        text-shadow: 2px 2px 5px #000;
+        text-align: center;
+        position: relative;
+        margin: 0 auto;
+        clear: both;
+        box-shadow: 0 0 10px gold;
+        border: 2px solid gold;
+        border-radius: 4px;
+    }
+    .point-glow {
+        text-align: center;
+        background: radial-gradient(#641b7b,#000,#000);
+        margin: 40px auto;
+    }
+    .point-glow p {
+        line-height: 1.2em;
+        font-weight: 900;
+        text-shadow: 0 0 5px #000, 0 0 5px #fff, 0 0 5px purple, 0 0 5px purple;
+    }
+    .eote-bullet {
+        color: #fff;
+        font-size: 1.2em;
+        line-height: 1.5em;
+    }
+    .eote-order-area {
+        width: 90%;
+        position: relative;
+        margin: 40px auto;
+    }
+/*---- EOTE End ----*/
+
+/*---- TSOL Start ----*/
+    .tsol-container {
+        width: 100%;
+        background: url("../img/tsol-bg.jpg") fixed center;
+        background-size: cover;
+    }
+    .tsol-header {
+        background: linear-gradient(60deg, #8d00a7,#7b077ba8, #881bb5);
+        padding: 30px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        box-shadow: 0 0 30px purple;
+        color: #fff;
+        width: 70%;
+        position: relative;
+        font-weight: 700;
+        text-shadow: 2px 2px 5px #000;
+        margin: 0 auto;
+        font-size: 2.2em;
+        font-family: 'Raleway', 'sans-serif';
+        text-align: center;
+    }
+    .tsol-header h1 {
+        font-size: 1em;
+        font-family: 'Raleway', 'sans-serif';
+    }
+    .tsol-header h3 {
+        font-size: 1em;
+    }
+    .tsol-reading {
+        width: 70%;
+        margin: 0 auto;
+        position: relative;
+        padding: 30px;
+        box-shadow: 5px 5px 10px #000;
+        text-align: left;
+        background: #fff;
+        box-shadow: 0 0 10px #000;
+        clear: both;
+    }
+    .tsol-sub-header {
+        padding: 30px;
+        text-transform: capitalize;
+        background: url(../img/tsol-bg.jpg) fixed center;
+        background-size: cover;
+        color: violet;
+        text-shadow: 2px 2px 5px #000;
+        text-align: center;
+        position: relative;
+        margin: 0 auto;
+        clear: both;
+        box-shadow: 0 0 10px purple;
+        border: 2px solid violet;
+        border-radius: 4px;
+    }
+    .tsol-benefits {
+        background: url(../img/tsol-bg.jpg) fixed center;
+        background-size: cover;
+        box-shadow: 0 0 10px #000;
+        text-align: center;
+        text-shadow: 1px 1px 2px #000;
+        padding: 10px;
+    }
+    .tsol-benefits p {
+        color: #fff;
+    }
+/*---- TSOL End ----*/
+
+/*---- RECM Start ----*/
+    .recm-container {
+        width: 100%;
+        background: url("../img/recm-bg.jpg") fixed center;
+        background-size: cover;
+    }
+    .recm-header {
+        background: linear-gradient(60deg, #8d00a7,#7b077ba8, #881bb5);
+        padding: 30px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        box-shadow: 0 0 30px purple;
+        color: #fff;
+        width: 70%;
+        position: relative;
+        font-weight: 700;
+        text-shadow: 2px 2px 5px #000;
+        margin: 0 auto;
+        font-size: 2.2em;
+        font-family: 'Raleway', 'sans-serif';
+        text-align: center;
+    }
+    .recm-header h1 {
+        font-size: 1em;
+        font-family: 'Raleway', 'sans-serif';
+    }
+    .recm-header h3 {
+        font-size: 1em;
+    }
+    .recm-reading {
+        width: 70%;
+        margin: 0 auto;
+        position: relative;
+        padding: 30px;
+        box-shadow: 5px 5px 10px #000;
+        text-align: left;
+        background: #fff;
+        box-shadow: 0 0 10px #000;
+        clear: both;
+    }
+    .recm-sub-header {
+        padding: 30px;
+        text-transform: capitalize;
+        background: url(../img/recm-bg.jpg) fixed center;
+        background-size: cover;
+        color: plum;
+        text-shadow: 2px 2px 5px #000;
+        text-align: center;
+        position: relative;
+        margin: 0 auto;
+        clear: both;
+        box-shadow: 0 0 10px purple;
+        border: 2px solid purple;
+        border-radius: 4px;
+    }
+    .bullet-purple p {
+        color: #fff;
+        font-weight: 700;
+    }
+.bullet-purple {
+    margin-bottom: 20px;
+    clear: both;
+}
+/*---- RECM End ----*/
+
+/*---- ROAP Start ----*/
+    .roap-container {
+        width: 100%;
+        background: url("../img/roap-bg.jpg") fixed center;
+        background-size: cover;
+    }
+    .roap-header {
+        background: linear-gradient(60deg, #8d00a7,#7b077ba8, #881bb5);
+        padding: 30px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        box-shadow: 0 0 30px purple;
+        color: #fff;
+        width: 70%;
+        position: relative;
+        font-weight: 700;
+        text-shadow: 2px 2px 5px #000;
+        margin: 0 auto;
+        font-size: 2.2em;
+        font-family: 'Raleway', 'sans-serif';
+        text-align: center;
+    }
+    .roap-header h1 {
+        font-size: 1em;
+        font-family: 'Raleway', 'sans-serif';
+    }
+    .roap-header h3 {
+        font-size: 1em;
+    }
+    .roap-reading {
+        width: 70%;
+        margin: 0 auto;
+        position: relative;
+        padding: 30px;
+        box-shadow: 5px 5px 10px #000;
+        text-align: left;
+        background: #fff;
+        box-shadow: 0 0 10px #000;
+        clear: both;
+    }
+    .roap-sub-header {
+        padding: 30px;
+        text-transform: capitalize;
+        background: url(../img/roap-bg.jpg) fixed center;
+        background-size: cover;
+        color: purple;
+        text-shadow: 2px 2px 5px #fff;
+        text-align: center;
+        position: relative;
+        margin: 0 auto;
+        clear: both;
+        box-shadow: 0 0 10px purple;
+        border: 2px solid purple;
+        border-radius: 4px;
+    }
+/*---- ROAP End ----*/
+
+/*---- DYS Start ----*/
+    .dys-container {
+        width: 100%;
+        background: url("../img/dys-bg.jpg") fixed center;
+        background-size: cover;
+    }
+    .dys-header {
+        background: linear-gradient(60deg, #8d00a7,#7b077ba8, #881bb5);
+        padding: 30px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        box-shadow: 0 0 30px purple;
+        color: #fff;
+        width: 70%;
+        position: relative;
+        font-weight: 700;
+        text-shadow: 2px 2px 5px #000;
+        margin: 0 auto;
+        font-size: 2.2em;
+        font-family: 'Raleway', 'sans-serif';
+        text-align: center;
+    }
+    .dys-header h1 {
+        font-size: 1em;
+        font-family: 'Raleway', 'sans-serif';
+    }
+    .dys-header h3 {
+        font-size: 1em;
+    }
+    .dys-reading {
+        width: 70%;
+        margin: 0 auto;
+        position: relative;
+        padding: 30px;
+        box-shadow: 5px 5px 10px #000;
+        text-align: left;
+        background: #fff;
+        box-shadow: 0 0 10px #000;
+        clear: both;
+    }
+    .dys-sub-header {
+        padding: 30px;
+        text-transform: capitalize;
+        background: url(../img/dys-bg.jpg) fixed center;
+        background-size: cover;
+        color: #fff;
+        text-shadow: 2px 2px 5px #000;
+        text-align: center;
+        position: relative;
+        margin: 0 auto;
+        clear: both;
+        box-shadow: 0 0 10px purple;
+        border: 2px solid purple;
+        border-radius: 4px;
+    }
+/*---- DYS End ----*/
+
+/*---- SAC Start ----*/
+    .sac-container {
+        width: 100%;
+        background: url("../img/sac-bg.jpg") fixed center;
+        background-size: cover;
+    }
+    .sac-header {
+        background: linear-gradient(60deg, #0098a7,#077b7ba8, #1b99b5);
+        padding: 30px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        box-shadow: 0 0 30px #006e80;
+        color: #fff;
+        width: 70%;
+        position: relative;
+        font-weight: 700;
+        text-shadow: 2px 2px 5px #000;
+        margin: 0 auto;
+        font-size: 2.2em;
+        font-family: 'Raleway', 'sans-serif';
+        text-align: center;
+    }
+    .sac-header h1 {
+        font-size: 1em;
+        font-family: 'Raleway', 'sans-serif';
+    }
+    .sac-header h3 {
+        font-size: 1em;
+    }
+    .sac-reading {
+        width: 70%;
+        margin: 0 auto;
+        position: relative;
+        padding: 30px;
+        box-shadow: 5px 5px 10px #000;
+        text-align: left;
+        background: #fff;
+        box-shadow: 0 0 10px #000;
+        clear: both;
+    }
+    .sac-sub-header {
+        padding: 30px;
+        text-transform: capitalize;
+        background: url(../img/sac-bg.jpg) fixed center;
+        background-size: cover;
+        color: #fff;
+        text-shadow: 2px 2px 5px #000;
+        text-align: center;
+        position: relative;
+        margin: 0 auto;
+        clear: both;
+        box-shadow: 0 0 10px purple;
+        border: 2px solid purple;
+        border-radius: 4px;
+    }
+    .sac-order-area {
+        width: 80%;
+        position: relative;
+        margin: 40px auto;
+    }
+/*---- SAC End ----*/
+
+/*---- EP Start ----*/
+    .ep-container {
+        width: 100%;
+        background: url("../img/ep-bg.jpg") fixed center;
+        background-size: cover;
+    }
+    .ep-header {
+        background: rgba(0,0,0,0.8);
+        padding: 30px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        box-shadow: 0 0 30px purple;
+        color: #fff;
+        width: 70%;
+        position: relative;
+        font-weight: 700;
+        text-shadow: 2px 2px 5px #000;
+        margin: 0 auto;
+        font-family: 'Raleway', 'sans-serif';
+        text-align: center;
+    }
+    .ep-header h1 {
+        font-size: 2em;
+        font-family: 'Raleway', 'sans-serif';
+    }
+    .ep-header h3 {
+        font-size: 1.5em;
+    }
+    .ep-header p {
+        font-size: 1.2em;
+        line-height: 1.2em;
+        color: #fff;
+    }
+    .ep-profile {
+        width: 50%;
+        background: url("../img/ep-bg.jpg") fixed center;
+        background-size: cover;
+        padding: 20px;
+        border-radius: 10px;
+        position: relative;
+        text-transform: uppercase;
+        text-align: left;
+        margin: 0 auto;
+        text-shadow: 0 0 10px #fff;
+        margin-bottom: 20px;
+        clear: both;
+        box-shadow: 0 0 20px #fff;
+    }
+    .ep-details {
+        width: 80%;
+        margin: 0 auto;
+        position: relative;
+    }
+    .ep-reading {
+        width: 70%;
+        margin: 0 auto;
+        position: relative;
+        padding: 30px;
+        box-shadow: 5px 5px 10px #000;
+        text-align: left;
+        background: #fff;
+        box-shadow: 0 0 10px #fff;
+        clear: both;
+    }
+    .ep-sub-header {
+        padding: 10px;
+        text-transform: capitalize;
+        background: url(../img/ep-bg.jpg) fixed center;
+        background-size: cover;
+        color: #fff;
+        text-shadow: 2px 2px 5px #000;
+        text-align: center;
+        position: relative;
+        margin: 0 auto;
+        clear: both;
+        box-shadow: 0 0 10px purple;
+        border: 2px solid purple;
+        border-radius: 4px;
+        text-shadow: 0 0 10px #fff;
+    }
+/*---- EP End ----*/
+
+/*---- DTOL Start ----*/
+    .dtol-container {
+        width: 100%;
+        background: url("../img/dtol-bg.jpg") fixed center;
+        background-size: cover;
+    }
+    .dtol-header {
+        background: #000000d4;
+        padding: 30px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        box-shadow: 0 0 30px #de2086;
+        border-bottom: 4px solid gold;
+        color: #fff;
+        width: 70%;
+        position: relative;
+        font-weight: 700;
+        text-shadow: 2px 2px 5px #000;
+        margin: 0 auto;
+        font-size: 2.2em;
+        font-family: 'Raleway', 'sans-serif';
+        text-align: center;
+    }
+    .dtol-header h1 {
+        font-size: 1em;
+        font-family: 'Raleway', 'sans-serif';
+    }
+    .dtol-header h3 {
+        font-size: 1em;
+    }
+    .dtol-reading {
+        width: 70%;
+        margin: 0 auto;
+        position: relative;
+        padding: 30px;
+        box-shadow: 5px 5px 10px #000;
+        text-align: left;
+        background: #fff;
+        box-shadow: 0 0 10px #000;
+        clear: both;
+    }
+    .dtol-sub-header {
+        padding: 30px;
+        text-transform: capitalize;
+        background: url(../img/dtol-bg.jpg) fixed center;
+        background-size: cover;
+        color: #fff;
+        text-shadow: 2px 2px 4px #000;
+        text-align: center;
+        position: relative;
+        margin: 0 auto;
+        clear: both;
+        box-shadow: 0 0 10px purple;
+        border: 2px solid purple;
+        border-radius: 4px;
+    }
+    .dtol-order-area {
+        width: 80%;
+        position: relative;
+        margin: 40px auto;
+    }
+    .dtol-order-area .order-img {
+        margin-right: 20px;
+        width: 45%;
+    }
+    .dtol-order-area .order-form {
+        margin-left: 20px;
+        width: 50%;
+    }
+/*---- DTOL End ----*/

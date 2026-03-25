@@ -1,0 +1,7 @@
+<div id="fb-comments">
+  <div class="fb-comments-title">
+    <h2>What Archetype Did you Get? Let Us Know In The Comments Below!</h2>
+  </div>
+  <div class="fb-comments undefined fb_iframe_widget" data-href="http://individualogist.com/whats-your-archetype/" data-numposts="10" data-order-by="reverse_time" data-colorscheme="dark" fb-xfbml-state="rendered"><span style="height: 626px; width: auto;"><iframe id="f1ed3f22f1730f4" name="f238367169eb9f" scrolling="no" title="Facebook Social Plugin" class="fb_ltr" src="https://www.facebook.com/plugins/comments.php?api_key=247959338893932&amp;channel_url=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FlY4eZXm_YWu.js%3Fversion%3D42%23cb%3Df2941594179ca94%26domain%3Dlander.individualogist.com%26origin%3Dhttp%253A%252F%252Flander.individualogist.com%252Ff1afa7b6db37cc8%26relation%3Dparent.parent&amp;href=http%3A%2F%2Findividualogist.com%2Fwhats-your-archetype%2F&amp;locale=en_US&amp;numposts=5&amp;order_by=reverse_time&amp;sdk=joey&amp;version=v2.12&amp;width=auto" style="border: none; overflow: hidden; height: auto; width: auto; filter:drop-shadow(0 0 10px #000);"></iframe></span></div>
+</div>
+<script id="facebook-jssdk" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&amp;version=v2.12&amp;appId=247959338893932" defer></script>
