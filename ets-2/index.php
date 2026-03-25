@@ -1,7 +1,7 @@
 <?php
 $PageTitle = "(1) Notification | Individualogist.com";
 $path = $_SERVER['DOCUMENT_ROOT'];
-$path .= ('common/header.php');
+$path .= ('/offer/common/header.php');
 include_once($path);
 ?>
 <style>
