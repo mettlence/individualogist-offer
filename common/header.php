@@ -60,15 +60,15 @@
 
 
   <link href="https://fonts.googleapis.com/css?family=Raleway:500,700,900" rel="stylesheet">
-  <link rel="shortcut icon" href="assets/img/icon.png">
+  <link rel="shortcut icon" href="/offer/assets/img/icon.png">
 
-  <link rel="stylesheet" href="assets/css/style.css?v=1.54">
+  <link rel="stylesheet" href="/offer/assets/css/style.css?v=1.54">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-  <script src="assets/js/settings.js?v=1.47"></script>
+  <script src="/offer/assets/js/settings.js?v=1.47"></script>
 
   <!--
     <script type="text/javascript">
